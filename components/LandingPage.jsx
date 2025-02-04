@@ -99,7 +99,7 @@ export default function LandingPage() {
       `}</style>
 
       {/* Page Header */}
-      <div className="header">TrueChoicePack Content Approval</div>
+      <div className="header">True Choice Pack Content Approval</div>
 
       {/* Sections for USA and Indian Teams */}
       <div className="sections">
