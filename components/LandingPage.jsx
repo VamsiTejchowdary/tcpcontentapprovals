@@ -117,7 +117,7 @@ export default function LandingPage() {
         <div className="section">
           <h2>Indian Team - Submit Content</h2>
           <p>Write and submit new content for review and approval.</p>
-          <button className="cta-button" onClick={() => router.push("/india-content")}>
+          <button className="cta-button" onClick={() => router.push("/indianteam")}>
             Submit Content
           </button>
         </div>
