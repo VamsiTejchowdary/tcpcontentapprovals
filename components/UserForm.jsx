@@ -53,6 +53,11 @@ export default function UserForm() {
         setPassword("");
         setRole("user");
         toast.success("User registration Successful!");
+        await fetch("/api/sendregisteremail", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email, name }),
+        });
       } else {
         toast.error("User registration failed!");
       }
